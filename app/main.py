@@ -43,6 +43,7 @@ def _parse_cors_origins(env_value: str | None) -> list[str]:
     default_dev_origins = [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "https://stay-circle-frontend.vercel.app",
     ]
 
     if not env_value:
